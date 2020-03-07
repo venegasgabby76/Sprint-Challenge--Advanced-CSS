@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SpaceWalkers</title>
 
@@ -15,13 +16,27 @@
 </head>
 
 <body>
-
  <!-- navigation code here -->
+  <div class="navContainer">
+    <div class="container">
+      <h1>SpaceWalkers</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="##">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign In</a>
+      </nav>
+    </div>
+  </div>
 
   <div class="container home">
 
-    <header class="intro">
+    <header id="intro" class="intro">
        <!-- image code here -->
+       <div>
+        <img src="/img/main-header.png" alt="Earth from Space">
+       </div>
 
       <h2>Lift Off</h2>
     
@@ -33,7 +48,7 @@
         <img src="img/sky.png" class="sky" alt="Space sky image">
         <img src="img/launch.png" class="launch" alt="Launching rocket">
     </section>
-   
+ 
     <section class="visit-planets">
      
       <h3>Can We Visit Planets?</h3>
@@ -42,8 +57,8 @@
     
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
     </section>
-    
-    <section class="walk">
+
+    <section id="contact" class="walk">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
 
@@ -60,7 +75,7 @@
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
-    </section>
+  </section>
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>

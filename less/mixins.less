@@ -1,1 +1,37 @@
 // Mixins Here
+
+
+.displayFlex(@direction,@justify,@align){
+    display:flex;
+    flex-direction:@direction;
+    justify-content:@justify;
+    align-items:@align;
+}
+
+.signUp(@width,@fontsize,@color,@bgColor){
+    width:@width;
+    font-size:@fontsize;
+    color:@color;
+    background-color:@bgColor;
+    
+    border:1px solid black;
+    padding:.75rem 1.5rem .75rem 1.5rem;
+    text-align:center;
+    border-radius:5px;
+    &:hover{
+        color:@bgColor;
+        background-color:@color;
+    }
+
+}
+
+.flexDirection(@direction, @width){
+    display:flex;
+    flex-direction:@direction;
+    width:@width;
+}
+
+.hideImg(){
+    visibility: hidden;
+    display:none;
+}
