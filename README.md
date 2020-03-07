@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+a responsive website is a fluid and adapts to the size of the screen no matter what the target device is. where an adaptive design uses static layouts based on breakpoint, which wont respond until they are initially loaded.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first implies you will design and code for a mobile device first, and expand layout or features as you gain more screen space toward desktop.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+it makes it easier to convert from px to rem.
+62.5% coverts rem untis by the power of 10. 
+1 rem= 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing lets us expand our ability of css by adding abstractions and making CSS easier to work with. In Lambda we are using less as our preprocessor.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I would probably say that nesting and variables are my favorite concepts. Media quesies has been giving me the most trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
